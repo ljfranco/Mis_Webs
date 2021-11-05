@@ -1,0 +1,191 @@
+
+//*.contenedor-cajas{
+	
+	
+
+}
+
+.caja1{
+		
+	background-color: red;
+	display: inline-block;
+	padding: 50px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 2em;
+	border: 5px solid green;
+	
+	
+}
+.caja2{
+	background-color: yellow;
+	display: inline-block;
+	padding: 50px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 2em;
+	border: 5px solid blue;
+}
+.caja3{
+	background-color: blue;
+	display: inline-block;
+	padding: 50px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 2em;
+	border: 5px solid yellow;
+}
+.caja4{
+	background-color: green;
+	display: inline-block;
+	padding: 50px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 2em;
+	border: 5px solid red;
+}
+
+p{
+font-size: 20px;	
+font-family: cursive;
+}
+
+.lists{
+
+	position: absolute;
+	width: 100%;
+	background-color: darkblue;
+}
+
+.list1{
+	list-style: none;
+	
+}
+.list1-li a{
+	color: #fff;
+}*/
+
+*{
+	font-family: "sen", sans-serif;
+	font-weight: 100;
+	margin: 0;
+}
+
+.cabezal{
+	display: inline;
+	/*margin-top: -210px;*/
+	position: fixed;
+	top: 0;
+	/*background-color:seagreen;*/
+	height: 150px;
+	width: 100%;
+	z-index: 100;
+	background-image: linear-gradient(seagreen,darkgreen);
+
+}
+h1{
+
+
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	text-shadow: black 10px 10px 30px;
+
+
+}
+
+nav{
+
+	background-color: darkgreen;
+	position: fixed;
+	top: 150px;
+	width: 100%;
+	z-index: 150;
+	
+
+}
+
+
+.nav_li{
+	display: inline-block;
+	padding: 6px 20px;
+	border: 1px solid white;
+	border-radius: 20px;
+	margin-right: 20px;
+
+
+
+}
+.nav_li a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.nav_li:hover {
+	background-color: #4FA95E;
+	transition: 0.5s;
+	box-shadow: 2px 2px 5px #000;
+
+}
+
+aside{
+	top: 210px;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	
+	
+}
+img{
+	width: 100%;
+	border-radius: 20px;
+}
+aside article{
+	/*border: solid #999 2px;*/
+	box-shadow: 2px 2px 10px;
+	border-radius: 20px;
+	padding: 5px;
+	margin-bottom: 5px;
+
+}
+section{
+	display: inline-block;
+	left: 20%;
+	top: 0px;
+	padding: 0px 20px;
+	max-width: 80%;
+	position: absolute;
+	margin-right: 40px;
+	text-align: justify;
+}
+.contenido{
+	margin-top: 210px;
+	
+	height: auto;
+	display: block;
+	background-color: darkgreen;
+	position: relative;
+	padding: 30px 5px;
+}
+
+
+.contacto{
+		background-color: darkgreen;
+		width: 100%;
+		position: static;
+		bottom: 0;
+		border-top: 2px solid #0B4614;
+
+		
+}
+	
+.contacto-li{
+	display: inline-block;
+	padding: 10px 10px;
+	font-size: 20px;
+}
